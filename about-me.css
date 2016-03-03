@@ -1,0 +1,100 @@
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #dddddd;
+  
+}
+a {
+	/* Typography Declarations */
+	font-weight: bold;
+	text-decoration: none;
+	color: #555555;
+}
+
+a:visited {
+	/* Typography Declarations */
+	color: #668866;
+}
+
+a:hover {
+	/* Tyopography Declarations */
+	color: #333333;
+  text-decoration: underline;
+}
+
+
+.contact-nav > li {
+  display: inline-block;
+  margin-right: 1em;
+  font-size: .3em;
+}
+.top-nav {
+  padding: .7em 0;
+  background-image: url('http://weloveparks.org/abstract-pattern-nav.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 0.4em #3d378a;
+}
+.masthead {
+  padding: 2em 0;
+  background-image: url('http://weloveparks.org/about-me-header2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 0.4em #8785c5;
+  border-bottom: solid 0.8em #3d378a;
+}
+.top-nav{
+  text-align: right;
+}
+.masthead-intro, .masthead-heading, .content-footer {
+  text-align: center;
+}
+.masthead-heading {
+  margin-top: -0.6em;
+  font-family: "Open Sans", "Helvetica Neue" sans-serif;
+  font-size: 6em;
+}
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 3em;
+}
+.introduction-section,
+.location-section,
+.questions-section {
+  
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 3em;
+}
+.location-section {
+  background-color: #e6e6f6;
+}
+.introduction-section {
+  background-color: #ffffff;
+}
+.questions-section {
+  background-color: #ffffff;
+}
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
+
+.social > li {
+  display: inline-block;
+}
+.content-footer {
+  background-image: url('http://weloveparks.org/abstract-pattern-nav.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: .3em;
+}
+.content-footer > p {
+  color: #777777;
+  font-family: sans-serif;
+}
